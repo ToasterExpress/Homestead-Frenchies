@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Whisper&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar" class="header-container">
+        <div class="header-logo">
+            <img id="bannerimage" src="/Images/Frenchbulldoglogo3.png" alt="Homestead Frenchies Logo">
+            Homestead Frenchies
+            <div class="header-facebook" id="arial">follow us on<a
+                    href="https://www.facebook.com/tina.sisneros.3">Facebook</div></a>
+        </div>
+        <div class="header-links">
+            <a href="./index.html">Home</a>
+            <a href="./adopt.html">Adopt</a>
+            <a href="./lineage.html">Litters</a>
+            <a href="./studs.html">Sires</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="form-wrapper">
+        <form id="myForm" action="/submit-data" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="address">Address:</label><br>
+            <input type="address" id="address" name="address"><br>
+            <label for="state">State:</label><br>
+            <input type="state" id="state" name="state"><br>
+            <label for="zipCode">Zip Code:</label><br>
+            <input type="zipCode" id="zipCode" name="zipCode"><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="phone" id="phone" name="phone"><br>
+            <p>Choose your gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <label for="userComment">Message:</label><br>
+            <textarea id="userComment" rows="4" cols="50" name="comment">Tell us why you want a Frenchie...</textarea><br><br>
+            <button type="button" onclick="displayFormData()">Submit</button>
+        </form>
+    </div>
+    <div class="footer-container">
+        <div class="footer-text">Copyright © ToasterExpress</div>
+    </div>
+</body>
+<script src="./scripts/script.js"></script>
+
+</html>
