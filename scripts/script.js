@@ -61,6 +61,7 @@ function calculateDueDate() {
   resultElement.textContent = `The dog's due date is: ${dueDate.toDateString()}`;
 }
 
+// age calculator
 function getAge() {
   const dobInput = document.getElementById("inputDob").value;
   const dob = new Date(dobInput);
