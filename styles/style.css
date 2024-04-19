@@ -266,7 +266,7 @@ h2 {
 .working-frenchies {
   background-color: whitesmoke;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 10px;
   flex-wrap: wrap;
   gap: 52px;
