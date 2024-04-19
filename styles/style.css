@@ -137,8 +137,9 @@ form {
   justify-content: center;
 }
 
-#result {
-  margin-top: 15px;
+#result,
+#currentAge {
+  margin: 20px;
   display: flex;
   justify-content: center;
 }
