@@ -266,7 +266,8 @@ h2 {
 .working-frenchies {
   background-color: whitesmoke;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 10px;
   flex-wrap: wrap;
   gap: 52px;
 }
@@ -291,6 +292,21 @@ h2 {
   border: 5px solid #3882f6;
 }
 
+.image-link {
+  display: flex;
+  justify-content: space-between;
+  width: 200px; 
+  height: 150px;
+  border-radius: 50px;
+  border: 5px solid #3882f6;
+  overflow: hidden; 
+  transition: transform 0.3s ease;
+}
+
+.image-link:hover {
+  transform: scale(1.2); 
+}
+
 .sires {
   width: 350px;
 }
@@ -304,6 +320,7 @@ h2 {
 
 .info {
   max-width: 200px;
+  text-align: center;
 }
 
 .text-image {
