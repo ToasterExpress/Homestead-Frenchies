@@ -40,6 +40,9 @@ a {
 .navbar a:hover {
   background: #ddd;
   color: black;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 .header-logo {
@@ -270,6 +273,7 @@ h2 {
   margin: 10px;
   flex-wrap: wrap;
   gap: 52px;
+  width:50%;
 }
 
 .body-container {
@@ -305,11 +309,16 @@ h2 {
 
 .image-link:hover {
   transform: scale(1.2); 
-  margin-bottom: 15px;
+}
+
+.image-link:hover ~.text-image{ /* ~ indicates sibling select for elements */
+  position:relative;            /* inside the same tag group */
+  top:15px; /* top adds distance from original top distance down by x pixels*/
+  font-weight: bold;
 }
 
 .sires {
-  width: 350px;
+  width: 100%;
 }
 
 .container-age {
@@ -320,7 +329,7 @@ h2 {
 
 
 .info {
-  max-width: 200px;
+  max-width: 90%;
   text-align: center;
 }
 
