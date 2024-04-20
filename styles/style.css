@@ -305,6 +305,7 @@ h2 {
 
 .image-link:hover {
   transform: scale(1.2); 
+  margin-bottom: 15px;
 }
 
 .sires {
