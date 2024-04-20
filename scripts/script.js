@@ -48,7 +48,7 @@ function displayFormData() {
 
   document.getElementById("formResult").innerHTML = result;
 }
-
+// due date calculator
 function calculateDueDate() {
   const lastMatingDateInput = document.getElementById("lastMatingDate");
   const lastMatingDate = new Date(lastMatingDateInput.value);
