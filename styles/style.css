@@ -449,3 +449,31 @@ h2 {
   border-bottom: 1px solid #ccc; 
   padding-bottom: 5px;
 }
+
+.litters-bar {
+  background-color: #2E4172;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.litters-h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  background-color: #2E4172;
+}
+
+.litters-btn {
+  background-color: #3882f6;
+  color: #fff;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transform: translateY(3px);
+  box-shadow: 3px 3px lightslategrey
+}
