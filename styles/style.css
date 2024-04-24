@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 body {
@@ -377,6 +378,7 @@ h2 {
   height: auto;
   margin: auto;
   border-radius: 50px;
+  margin-bottom: 50px;
 }
 
 .frogdog-container,
@@ -452,7 +454,6 @@ h2 {
 
 .litters-bar {
   background-color: #2E4172;
-  font-family: Arial, sans-serif;
   color: white;
   text-align: center;
   padding: 20px;
@@ -469,7 +470,6 @@ h2 {
   background-color: #fff;;
   color: #3882f6;
   font-weight: bold;
-  font-family: Arial, sans-serif;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
