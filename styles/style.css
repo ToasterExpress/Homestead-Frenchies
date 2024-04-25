@@ -33,6 +33,10 @@ a {
   transform: translateY(-100%);
 }
 
+.navbar.collapsed {
+  transform: translateY(-100%);
+}
+
 .navbar a {
   float: left;
   display: block;
