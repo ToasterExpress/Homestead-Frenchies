@@ -151,9 +151,11 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
 textarea {
   resize: vertical;
 }
+
 input[type="submit"] {
   background-color: #007bff;
   color: #ffffff;
@@ -162,8 +164,15 @@ input[type="submit"] {
   border-radius: 5px;
   cursor: pointer;
 }
+
 input[type="submit"]:hover {
   background-color: #0056b3;
+}
+
+.fillout-form {
+  display: flex;
+  justify-content: center;
+  padding: 30px 20px;
 }
 
 #contactme {
